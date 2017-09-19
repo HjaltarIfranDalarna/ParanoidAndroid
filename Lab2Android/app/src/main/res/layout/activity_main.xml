@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.melchior.lab2android.MainActivity">
+
+    <TableLayout
+        android:layout_width="372dp"
+        android:layout_height="283dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="71dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="327dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="@string/try_to_guess"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="15dp"
+                tools:layout_editor_absoluteY="172dp"
+                android:textColor="@color/colortext"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="-1dp"
+                tools:layout_editor_absoluteY="84dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text="@string/input_value"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="108dp"
+                tools:layout_editor_absoluteY="120dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/colorPurple"
+                android:drawableRight=""
+                android:background="@color/colorViolet"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Try to guess the number.</string>
+    <string name="behind">Behind!</string>
+    <string name="ahead">Ahead!</string>
+    <string name="hit">Hit!</string>
+    <string name="input_value">Input value!</string>
+    <string name="play_more">Play more.</string>
+    <string name="try_to_guess">Try to guess the number(1 &#8211; 100)</string>
+    <string name="error">Must be a (1..100) number!</string>
+</resources>
